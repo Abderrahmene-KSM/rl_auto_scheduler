@@ -2,7 +2,7 @@ tiramisu:
     tiramisu_path: "/data/ak11326/Tools/tiramisu"
     env_type: "execution" # model | execution
     tags_model_weights: "/data/ak11326/Dev/rl_auto_scheduler_2/env_api/scheduler/models/cost_model_weights.pt"
-    is_new_tiramisu: False
+    is_new_tiramisu: True
     workspace: "/data/ak11326/Dev/tiramisu_workspace/"
     old_tiramisu_path: "/data/ak11326/Tools/tiramisu"
 

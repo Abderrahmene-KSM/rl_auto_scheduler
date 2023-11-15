@@ -52,19 +52,19 @@ if __name__ == "__main__":
             #     actions_mask,
             # ) = tiramisu_api.parallelize(loop_level=0, env_id=1)
             
-            (
-               speedup,
-               embedding_tensor,
-               legality,
-               actions_mask,
-            ) = tiramisu_api.nextRow(env_id=2)
+            #(
+            #   speedup,
+            #   embedding_tensor,
+            #   legality,
+            #   actions_mask,
+            #) = tiramisu_api.nextRow(env_id=2)
             
-            (
-               speedup,
-               embedding_tensor,
-               legality,
-               actions_mask,
-            ) = tiramisu_api.addOne(env_id=2)
+            #(
+            #   speedup,
+            #   embedding_tensor,
+            #   legality,
+            #   actions_mask,
+            #) = tiramisu_api.addOne(env_id=2)
             
 
             # tiramisu_api.scheduler_service.next_branch()

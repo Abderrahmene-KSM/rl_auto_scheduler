@@ -1,16 +1,16 @@
 tiramisu:
-    tiramisu_path: "/data/ak11326/Tools/tiramisu"
-    env_type: "execution" # model | execution
-    tags_model_weights: "/data/ak11326/Dev/rl_auto_scheduler_2/env_api/scheduler/models/cost_model_weights.pt"
-    is_new_tiramisu: True
-    workspace: "/data/ak11326/Dev/tiramisu_workspace/"
-    old_tiramisu_path: "/data/ak11326/Tools/tiramisu"
+    tiramisu_path: Tiramisu Path
+    env_type:  "model" # model | execution
+    tags_model_weights: path of the saved weights of the cost model
+    is_new_tiramisu: False
+    workspace: path of the workspace to generate execution files
+    old_tiramisu_path: path of old tiramisu
 
 dataset:
     dataset_format: PICKLE
-    cpps_path : "/data/ak11326/Dev/rl_auto_scheduler_2/datasets/cpps_mr_nr_ts.pkl"
-    dataset_path: "/data/ak11326/Dev/rl_auto_scheduler_2/datasets/data_mr_nr_ts.pkl"
-    save_path: "/data/ak11326/Dev/rl_auto_scheduler_2/datasets"
+    cpps_path : 
+    dataset_path: 
+    save_path: 
     shuffle: True
     seed: 7
     saving_frequency: 500
@@ -18,8 +18,8 @@ dataset:
     is_benchmark: False
 
 ray:
-    results: "/data/ak11326/Dev/tiramisu_workspace/results"
-    restore_checkpoint: ""
+    results: 
+    restore_checkpoint: 
 
 experiment:
     name: "fixed-bugs"
