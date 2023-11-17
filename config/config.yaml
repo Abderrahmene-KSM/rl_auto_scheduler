@@ -8,9 +8,9 @@ tiramisu:
 
 dataset:
     dataset_format: PICKLE
-    cpps_path : "/data/ak11326/Dev/rl_auto_scheduler_2/datasets/cpps_mr_nr_ts.pkl"
-    dataset_path: "/data/ak11326/Dev/rl_auto_scheduler_2/datasets/data_mr_nr_ts.pkl"
-    save_path: "/data/ak11326/Dev/rl_auto_scheduler_2/datasets"
+    cpps_path : "/data/ak11326/Dev/datasets/cpps_mr_nr_ts.pkl"
+    dataset_path: "/data/ak11326/Dev/datasets/data_mr_nr_ts.pkl"
+    save_path: "/data/ak11326/Dev/datasets"
     shuffle: True
     seed: 7
     saving_frequency: 500
